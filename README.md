@@ -1,0 +1,1 @@
+Olverius' Loot Filter is a custom loot filter designed for Project Diablo 2, reflecting my personal approach while drawing structural inspiration from Path of Diablo. It helps you quickly spot the best items by only triggering notifications for those that truly matter, streamlining your gameplay and loot management.
