@@ -649,40 +649,40 @@ ItemDisplay[(WEAPON OR ARMOR) NMAG !ID]: %NAME% //Gambling
 //Unstacked
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 //Perfect
-ItemDisplay[gpv]: %WHITE%Perfect Amethyst %YELLOW%[%PURPLE%O%YELLOW%]
-ItemDisplay[gpw]: %WHITE%Perfect Diamond %YELLOW%[%WHITE%O%YELLOW%]
-ItemDisplay[gpg]: %WHITE%Perfect Emerald %YELLOW%[%GREEN%O%YELLOW%]
-ItemDisplay[gpr]: %WHITE%Perfect Ruby %YELLOW%[%RED%O%YELLOW%]
-ItemDisplay[gpb]: %WHITE%Perfect Sapphire %YELLOW%[%BLUE%O%YELLOW%]
-ItemDisplay[gpy]: %WHITE%Perfect Topaz %YELLOW%[%YELLOW%O%YELLOW%]
-ItemDisplay[skz]: %WHITE%Perfect Skull %YELLOW%[%GRAY%O%YELLOW%]
+ItemDisplay[gpv]: %WHITE%Amethyst %YELLOW%[%PURPLE%O%YELLOW%]%MAP-1D%
+ItemDisplay[gpw]: %WHITE%Diamond %YELLOW%[%WHITE%O%YELLOW%]%MAP-1D%
+ItemDisplay[gpg]: %WHITE%Emerald %YELLOW%[%GREEN%O%YELLOW%]%MAP-1D%
+ItemDisplay[gpr]: %WHITE%Ruby %YELLOW%[%RED%O%YELLOW%]%MAP-1D%
+ItemDisplay[gpb]: %WHITE%Sapphire %YELLOW%[%BLUE%O%YELLOW%]%MAP-1D%
+ItemDisplay[gpy]: %WHITE%Topaz %YELLOW%[%YELLOW%O%YELLOW%]%MAP-1D%
+ItemDisplay[skz]: %WHITE%Skull %YELLOW%[%GRAY%O%YELLOW%]%MAP-1D%
 //Flawless
-ItemDisplay[gzv]: %WHITE%Flawless Amethyst %YELLOW%[%PURPLE%O%YELLOW%]
-ItemDisplay[glw]: %WHITE%Flawless Diamond %YELLOW%[%WHITE%O%YELLOW%]
-ItemDisplay[glg]: %WHITE%Flawless Emerald %YELLOW%[%GREEN%O%YELLOW%]
-ItemDisplay[glr]: %WHITE%Flawless Ruby %YELLOW%[%RED%O%YELLOW%]
-ItemDisplay[glb]: %WHITE%Flawless Sapphire %YELLOW%[%BLUE%O%YELLOW%]
-ItemDisplay[gly]: %WHITE%Flawless Topaz %YELLOW%[%YELLOW%O%YELLOW%]
-ItemDisplay[skl]: %WHITE%Flawless Skull %YELLOW%[%GRAY%O%YELLOW%]
+ItemDisplay[gzv]: %WHITE%amethyst %YELLOW%[%PURPLE%O%YELLOW%]
+ItemDisplay[glw]: %WHITE%diamond %YELLOW%[%WHITE%O%YELLOW%]
+ItemDisplay[glg]: %WHITE%emerald %YELLOW%[%GREEN%O%YELLOW%]
+ItemDisplay[glr]: %WHITE%ruby %YELLOW%[%RED%O%YELLOW%]
+ItemDisplay[glb]: %WHITE%sapphire %YELLOW%[%BLUE%O%YELLOW%]
+ItemDisplay[gly]: %WHITE%topaz %YELLOW%[%YELLOW%O%YELLOW%]
+ItemDisplay[skl]: %WHITE%skull %YELLOW%[%GRAY%O%YELLOW%]
 
 //Stacked
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 //Pefect
-ItemDisplay[gpvs]: %WHITE%Perfect Amethyst %YELLOW%[%PURPLE%O%YELLOW%]%GRAY%[%QTY%]%MAP%
-ItemDisplay[gpws]: %WHITE%Perfect Diamond %YELLOW%[%WHITE%O%YELLOW%]%GRAY%[%QTY%]%MAP%
-ItemDisplay[gpgs]: %WHITE%Perfect Emerald %YELLOW%[%GREEN%O%YELLOW%]%GRAY%[%QTY%]%MAP%
-ItemDisplay[gprs]: %WHITE%Perfect Ruby %YELLOW%[%RED%O%YELLOW%]%GRAY%[%QTY%]%MAP%
-ItemDisplay[gpbs]: %WHITE%Perfect Sapphire %YELLOW%[%BLUE%O%YELLOW%]%GRAY%[%QTY%]%MAP%
-ItemDisplay[gpys]: %WHITE%Perfect Topaz %YELLOW%[%YELLOW%O%YELLOW%]%GRAY%[%QTY%]%MAP%
-ItemDisplay[skzs]: %WHITE%Perfect Skull %YELLOW%[%GRAY%O%YELLOW%]%GRAY%[%QTY%]%MAP%
+ItemDisplay[gpvs]: %WHITE%Amethyst %YELLOW%[%PURPLE%O%YELLOW%]%GRAY%[%QTY%]%MAP-1D%
+ItemDisplay[gpws]: %WHITE%Diamond %YELLOW%[%WHITE%O%YELLOW%]%GRAY%[%QTY%]%MAP-1D%
+ItemDisplay[gpgs]: %WHITE%Emerald %YELLOW%[%GREEN%O%YELLOW%]%GRAY%[%QTY%]%MAP-1D%
+ItemDisplay[gprs]: %WHITE%Ruby %YELLOW%[%RED%O%YELLOW%]%GRAY%[%QTY%]%MAP-1D%
+ItemDisplay[gpbs]: %WHITE%Sapphire %YELLOW%[%BLUE%O%YELLOW%]%GRAY%[%QTY%]%MAP-1D%
+ItemDisplay[gpys]: %WHITE%Topaz %YELLOW%[%YELLOW%O%YELLOW%]%GRAY%[%QTY%]%MAP-1D%
+ItemDisplay[skzs]: %WHITE%Skull %YELLOW%[%GRAY%O%YELLOW%]%GRAY%[%QTY%]%MAP-1D%
 //Flawless
-ItemDisplay[gzvs]: %WHITE%Flawless Amethyst %YELLOW%[%PURPLE%O%YELLOW%]%GRAY%[%QTY%]
-ItemDisplay[glws]: %WHITE%Flawless Diamond %YELLOW%[%WHITE%O%YELLOW%]%GRAY%[%QTY%]
-ItemDisplay[glgs]: %WHITE%Flawless Emerald %YELLOW%[%GREEN%O%YELLOW%]%GRAY%[%QTY%]
-ItemDisplay[glrs]: %WHITE%Flawless Ruby %YELLOW%[%RED%O%YELLOW%]%GRAY%[%QTY%]
-ItemDisplay[glbs]: %WHITE%Flawless Sapphire %YELLOW%[%BLUE%O%YELLOW%]%GRAY%[%QTY%]
-ItemDisplay[glys]: %WHITE%Flawless Topaz %YELLOW%[%YELLOW%O%YELLOW%]%GRAY%[%QTY%]
-ItemDisplay[skls]: %WHITE%Flawless Skull %YELLOW%[%GRAY%O%YELLOW%]%GRAY%[%QTY%]
+ItemDisplay[gzvs]: %WHITE%amethyst %YELLOW%[%PURPLE%O%YELLOW%]%GRAY%[%QTY%]
+ItemDisplay[glws]: %WHITE%diamond %YELLOW%[%WHITE%O%YELLOW%]%GRAY%[%QTY%]
+ItemDisplay[glgs]: %WHITE%emerald %YELLOW%[%GREEN%O%YELLOW%]%GRAY%[%QTY%]
+ItemDisplay[glrs]: %WHITE%ruby %YELLOW%[%RED%O%YELLOW%]%GRAY%[%QTY%]
+ItemDisplay[glbs]: %WHITE%sapphire %YELLOW%[%BLUE%O%YELLOW%]%GRAY%[%QTY%]
+ItemDisplay[glys]: %WHITE%topaz %YELLOW%[%YELLOW%O%YELLOW%]%GRAY%[%QTY%]
+ItemDisplay[skls]: %WHITE%skull %YELLOW%[%GRAY%O%YELLOW%]%GRAY%[%QTY%]
 
 //RUNES
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
@@ -1269,7 +1269,7 @@ ItemDisplay[(UNI !ID) mpi]: //Skull Splitter
 ItemDisplay[(UNI !ID) 9mp]: //%ORANGE%oooooo %GOLD%Pompeii's Wrath %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) 7mp]: //%ORANGE%oooooooo %GOLD%Cranebeak %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) wax]: //Rakescar
-ItemDisplay[(UNI !ID) 9wa]: %ORANGE%oooooo %GOLD%Guardian Naga %ORANGE%oooooo%MAP-D3%
+ItemDisplay[(UNI !ID) 9wa]: //%ORANGE%oooooo %GOLD%Guardian Naga %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) 7wa]: %ORANGE%oooooooo %GOLD%Death Cleaver %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) lax]: //Axe of Fechmar
 ItemDisplay[(UNI !ID) 9la]: //%ORANGE%oooooo %GOLD%Warlord's Trust %ORANGE%oooooo%MAP-D3%
@@ -1925,7 +1925,7 @@ ItemDisplay[imrn]: %GOLD%Demonic Cube %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-55%
 ItemDisplay[lbox]: %GOLD%Larzuk's Puzzlebox %YELLOW%[%WHITE%%QTY%%YELLOW%]%BORDER-D3%
 ItemDisplay[lpp]: %GOLD%Larzuk's Puzzlepiece %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-D3%
 ItemDisplay[lmal]: %GOLD%Larzuk's Malus%MAP-55%
-ItemDisplay[jewf]: %TAN%Fragment %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-0E%
+ItemDisplay[jewf]: %TAN%Frag %YELLOW%[%WHITE%%QTY%%YELLOW%]%MAP-0E%
 ItemDisplay[rkey]: %GRAY%Skeleton Key %BORDER-1D%
 ItemDisplay[rtp]: %BLUE%Horadrim Navigator %BORDER-94%
 ItemDisplay[rid]: %RED%Horadrim Almanac %BORDER-D3%
@@ -2025,7 +2025,7 @@ ItemDisplay[RARE t44]: %YELLOW%Steppes of Daken-Shar {%YELLOW%light 180 %BLUE%co
 
 //Unique
 ItemDisplay[t51]: %GOLD%Zhar's Sanctum %ORANGE%Map%BORDER-D3%
-ItemDisplay[t52]: %GOLD%Warlord of Blood %ORANGE%Map%BORDER-D3%
+ItemDisplay[t52]: %GOLD%Stygian Caverns %ORANGE%Map%BORDER-D3%
 ItemDisplay[t53]: %GOLD%Fallen Gardens %ORANGE%Map%BORDER-D3%
 ItemDisplay[t54]: %GOLD%Imperial Palace %ORANGE%Map%BORDER-D3%
 ItemDisplay[t55]: %GOLD%Outer Void %ORANGE%Map%BORDER-D3%
@@ -2139,6 +2139,6 @@ ItemDisplay[key]:
 ItemDisplay[MAG !ID jew ILVL<66]: 
 
 //Hide everything, but with exceptions
-ItemDisplay[(NORM OR EXC OR ELT) (NMAG OR MAG) !(leg OR RARE) CLVL>0]: //Choose your exception
+ItemDisplay[(NORM OR EXC OR ELT) (NMAG OR MAG OR RARE !(CIRC OR BELT OR GLOVES OR BOOTS OR SIN OR DRU)) !leg !amu !rin CLVL>0]:
 
 //END
