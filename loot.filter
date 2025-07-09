@@ -1125,9 +1125,9 @@ ItemDisplay[(UNI !ID) rar]: %TAN%oooooooo %GOLD%Cage of the Unsullied %TAN%ooooo
 ItemDisplay[(UNI !ID) spl]: //Iceblink
 ItemDisplay[(UNI !ID) xpl]: %ORANGE%oooooo %GOLD%Skullder's Ire %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) upl]: %ORANGE%oooooooo %GOLD%Arkaine's Valor %ORANGE%oooooooo%BORDER-D3%
-ItemDisplay[(UNI !ID) ltp]: //Heavenly Garb
+ItemDisplay[(UNI !ID) ltp]: Heavenly Garb
 ItemDisplay[(UNI !ID) xtp]: %ORANGE%oooooo %GOLD%Que-Hegan's Wisdom %ORANGE%oooooo%MAP-D3%
-ItemDisplay[(UNI !ID) utp]: //%TAN%oooooooo %GOLD%Purgatory %TAN%oooooooo%BORDER-D3% //New
+ItemDisplay[(UNI !ID) utp]: %TAN%oooooooo %GOLD%Purgatory %TAN%oooooooo%BORDER-D3% //New
 ItemDisplay[(UNI !ID) fld]: Rockfleece
 ItemDisplay[(UNI !ID) xld]: //%ORANGE%oooooo %GOLD%Toothrow %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) uld]: %ORANGE%oooooooo %GOLD%Leviathan %ORANGE%oooooooo%BORDER-D3%
@@ -1160,7 +1160,7 @@ ItemDisplay[(UNI !ID) xit]: %ORANGE%oooooo %GOLD%Tiamat's Rebuke %ORANGE%oooooo%
 ItemDisplay[(UNI !ID) uit]: %ORANGE%oooooooo %GOLD%Stormshield %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) bsh]: //Wall of the Eyeless
 ItemDisplay[(UNI !ID) xsh]: %ORANGE%oooooo %GOLD%Lidless Wall %ORANGE%oooooo%MAP-D3%
-ItemDisplay[(UNI !ID) ush]: //%ORANGE%oooooooo %GOLD%Head Hunter's Glory %ORANGE%oooooooo%BORDER-D3%
+ItemDisplay[(UNI !ID) ush]: %ORANGE%oooooooo %GOLD%Head Hunter's Glory %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) tow]: //Bverrit Keep
 ItemDisplay[(UNI !ID) xow]: %ORANGE%oooooo %GOLD%Gerke's Sanctuary %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) uow]: %ORANGE%oooooooo %GOLD%Medusa's Gaze %ORANGE%oooooooo%BORDER-D3%
@@ -1888,14 +1888,14 @@ ItemDisplay[crs NMAG (!INF OR ETH) SOCK>3 !RW]: %NAME%{%NAME%}
 ItemDisplay[9cr NMAG (!INF OR ETH) SOCK>3 !RW]: %NAME%{%NAME%}
 ItemDisplay[9br NMAG (!INF OR ETH) SOCK>4 !RW]: %NAME%{%NAME%}
 ItemDisplay[7p7 NMAG (!INF OR ETH) SOCK>4 !RW]: %NAME%{%NAME%}
-ItemDisplay[7o7 NMAG ETH SOCK>2 !RW]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[7vo NMAG ETH SOCK>2 !RW]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[7pa NMAG ETH SOCK>2 !RW]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[7s8 NMAG ETH SOCK>2 !RW]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[7wc NMAG ETH SOCK>2 !RW]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[9wc NMAG ETH SOCK>2 !RW]: %NAME%{%NAME%}%BORDER-1F%
-ItemDisplay[gsc NMAG !INF SOCK>3 !RW]: %NAME%{%NAME%}
-ItemDisplay[wsp NMAG !INF SOCK>3 !RW]: %NAME%{%NAME%}
+ItemDisplay[7o7 NMAG (!INF OR ETH) SOCK>2 !RW]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[7vo NMAG (!INF OR ETH) SOCK>2 !RW]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[7pa NMAG (!INF OR ETH) SOCK>2 !RW]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[7s8 NMAG (!INF OR ETH) SOCK>2 !RW]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[7wc NMAG (!INF OR ETH) SOCK>2 !RW]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[9wc NMAG (!INF OR ETH) SOCK>2 !RW]: %NAME%{%NAME%}%BORDER-1F%
+ItemDisplay[gsc NMAG (!INF OR ETH) SOCK>3 !RW]: %NAME%{%NAME%}
+ItemDisplay[wsp NMAG (!INF OR ETH) SOCK>3 !RW]: %NAME%{%NAME%}
 
 //PROJECT D2
 //▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
@@ -2133,12 +2133,13 @@ ItemDisplay[cm1 !UNI ID !(LIFE>10 OR MANA>10 OR MAXDMG>1 OR DEX>0 OR STR>0 OR FR
 ItemDisplay[NMAG INF]:
 
 //Keys, Blue Rings and Jewels
-ItemDisplay[(rin OR amu) MAG !ID]:
+ItemDisplay[(amu OR rin) MAG]: 
+ItemDisplay[(xhn OR xhm OR upt OR 7vo OR 7s8 OR 7pa OR 7wc OR 9tw OR 7tw OR pae) NMAG SOCK=1]: 
 ItemDisplay[aqv OR cqv]: 
 ItemDisplay[key]: 
 ItemDisplay[MAG !ID jew ILVL<66]: 
 
 //Hide everything, but with exceptions
-ItemDisplay[(NORM OR EXC OR ELT) (NMAG OR MAG OR RARE !(CIRC OR BELT OR GLOVES OR BOOTS OR SIN OR DRU)) !leg !amu !rin CLVL>0]:
+ItemDisplay[(NORM OR EXC OR ELT) (NMAG OR MAG OR RARE) !(SUP (xhn OR xhm OR upt OR 7vo OR 7s8 OR 7pa OR 7wc OR 9tw OR 7tw OR pae OR 6ws)) !(RARE (ARMOR (CIRC OR GLOVES OR BELT OR BOOTS) !(AXE (wax OR 9wa OR 7wa)) OR DRU OR SIN OR NEC OR DIN OR BAR)) !leg !amu !rin CLVL>0]:
 
-//END
+//END 
