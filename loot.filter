@@ -1087,7 +1087,7 @@ ItemDisplay[(UNI !ID) uhl]: %TAN%oooooooo %GOLD%Overlord's Helm %TAN%oooooooo%BO
 ItemDisplay[(UNI !ID) msk]: //The Face of Horror
 ItemDisplay[(UNI !ID) xsk]: //%ORANGE%oooooo %GOLD%Blackhorn's Face %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) usk]: %ORANGE%oooooooo %GOLD%Andariel's Visage %ORANGE%oooooooo%BORDER-D3%
-ItemDisplay[(UNI !ID) bhm]: //Wormskull
+ItemDisplay[(UNI !ID) bhm]: Wormskull
 ItemDisplay[(UNI !ID) xh9]: %ORANGE%oooooo %GOLD%Vampire Gaze %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) uh9]: %ORANGE%oooooooo %GOLD%Giant Skull %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) ghm]: //Howltusk
@@ -1206,7 +1206,7 @@ ItemDisplay[(UNI !ID) uhb]: %ORANGE%oooooooo %GOLD%Shadow Dancer %ORANGE%ooooooo
 ItemDisplay[(UNI !ID) lbl]: Lenymo
 ItemDisplay[(UNI !ID) zlb]: %ORANGE%oooooo %GOLD%String of Ears %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) ulc]: %ORANGE%oooooooo %GOLD%Arachnid Mesh %ORANGE%oooooooo%BORDER-D3%
-ItemDisplay[(UNI !ID) vbl]: //Snakecord
+ItemDisplay[(UNI !ID) vbl]: Snakecord
 ItemDisplay[(UNI !ID) zvb]: %ORANGE%oooooo %GOLD%Razortail %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) uvc]: %ORANGE%oooooooo %GOLD%Nosferatu's Coil %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) mbl]: Nightsmoke
@@ -1358,7 +1358,7 @@ ItemDisplay[(UNI !ID) dir]: //The Diggler
 ItemDisplay[(UNI !ID) 9di]: //%ORANGE%oooooo %GOLD%	Heart Carver %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) 7di]: %TAN%oooooooo %GOLD%Shatterblade %TAN%oooooooo%BORDER-D3% //New
 ItemDisplay[(UNI !ID) kri]: //The Jade Tan Do
-ItemDisplay[(UNI !ID) 9kr]: //%ORANGE%oooooo %GOLD%Blackbog's Sharp %ORANGE%oooooo%MAP-D3%
+ItemDisplay[(UNI !ID) 9kr]: %ORANGE%oooooo %GOLD%Blackbog's Sharp %ORANGE%oooooo%MAP-D3%
 ItemDisplay[(UNI !ID) 7kr]: %ORANGE%oooooooo %GOLD%Fleshripper %ORANGE%oooooooo%BORDER-D3%
 ItemDisplay[(UNI !ID) bld]: //Spectral Shard
 ItemDisplay[(UNI !ID) 9bl]: %ORANGE%oooooo %GOLD%Stormspike %ORANGE%oooooo%MAP-D3%
@@ -1827,7 +1827,7 @@ ItemDisplay[NMAG !RW SCEPTER SOCK=5]: %NAME%{%GOLD%Honor %GRAY%Amn + El + Ith + 
 
 //Assassin Claws
 ItemDisplay[NMAG !RW SIN SOCK=2]: %NAME%{%RED%Wind %GRAY%Sur + El%NL%%GOLD%Strength %GRAY%Amn + Tir%NL%%GOLD%Steel %GRAY%Tir + El%NL%%GRAY%Runewords%WHITE%:%NAME%}%CONTINUE%
-ItemDisplay[NMAG !RW SIN SOCK=3]: %NAME%{%GOLD%Venom %GRAY%Tal + Dol + Mal%NL%%RED%Plague %GRAY%Cham + Fal + Um%NL%%GOLD%Pattern %GRAY%Tal + Ort + Tir%NL%%GOLD%Malice %GRAY%Ith + El + Eth%NL%%GOLD%Lawbringer %GRAY%Amn + Lem + Ko%NL%%GOLD%King's Grace %GRAY%Amn + Ral + Thul%NL%%RED%Fury %GRAY%Jah + Gul + Eth%NL%%GOLD%Crescent Moon %GRAY%Shael + Um + Tir%NL%%RED%Chaos %GRAY%Fal + Ohm + Um%NL%%GOLD%Black %GRAY%Thul + Io + Nef%NL%%%GRAY%Runewords%WHITE%:%NAME%}%CONTINUE%
+ItemDisplay[NMAG !RW SIN SOCK=3]: %NAME%{%GOLD%Venom %GRAY%Tal + Dol + Mal%NL%%RED%Plague %GRAY%Cham + Fal + Um%NL%%GOLD%Pattern %GRAY%Tal + Ort + Tir%NL%%GOLD%Malice %GRAY%Ith + El + Eth%NL%%GOLD%Lawbringer %GRAY%Amn + Lem + Ko%NL%%GOLD%King's Grace %GRAY%Amn + Ral + Thul%NL%%RED%Fury %GRAY%Jah + Gul + Eth%NL%%GOLD%Crescent Moon %GRAY%Shael + Um + Tir%NL%%RED%Chaos %GRAY%Fal + Ohm + Um%NL%%GOLD%Black %GRAY%Thul + Io + Nef%NL%%GRAY%Runewords%WHITE%:%NAME%}%CONTINUE%
 
 //Sorc Orbs
 ItemDisplay[NMAG !RW SOR SOCK=2]: %NAME%{%GOLD%Neophyte %GRAY%Thul + Tir%NL%%GRAY%Runewords%WHITE%:%NAME%}%CONTINUE%
@@ -2134,12 +2134,11 @@ ItemDisplay[NMAG INF]:
 
 //Keys, Blue Rings and Jewels
 ItemDisplay[(amu OR rin) MAG]: 
-ItemDisplay[(xhn OR xhm OR upt OR 7vo OR 7s8 OR 7pa OR 7wc OR 9tw OR 7tw OR pae) NMAG SOCK=1]: 
 ItemDisplay[aqv OR cqv]: 
 ItemDisplay[key]: 
 ItemDisplay[MAG !ID jew ILVL<66]: 
 
 //Hide everything, but with exceptions
-ItemDisplay[(NORM OR EXC OR ELT) (NMAG OR MAG OR RARE) !(SUP (xhn OR xhm OR upt OR 7vo OR 7s8 OR 7pa OR 7wc OR 9tw OR 7tw OR pae OR 6ws)) !(RARE (ARMOR (CIRC OR GLOVES OR BELT OR BOOTS) !(AXE (wax OR 9wa OR 7wa)) OR DRU OR SIN OR NEC OR DIN OR BAR)) !leg !amu !rin CLVL>0]:
+ItemDisplay[(NORM OR EXC OR ELT) (NMAG OR MAG OR RARE) !(RARE (ARMOR (CIRC OR CHEST OR GLOVES OR BELT OR BOOTS) OR (CLASS (DRU OR BAR OR DIN OR SIN OR ZON)) OR (AXE (wax OR 9wa OR 7wa))) OR ((ETH AND RARE) (JAV OR THROWING))) !leg !amu !rin CLVL>0]:
 
-//END 
+//END
